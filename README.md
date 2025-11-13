@@ -1,19 +1,6 @@
 # SQL-analysis-on-music-store
-In this project i have been quering on different tables that is a star flake schema .
-Number of tables and columns-
-album - album_id , title , artist_id
-artist - artist_id, name
-customer - customer_id, first_name, last_name, company, company,city,    state, country, postal_code, phone, fax, email, support_rep_id
-Employee- employee_id,last_name	,first_name, title, reports_to, levels, birthdate, hire_date, address, city, state, country, postal_code,phone, fax,email
-genre- genre_id, name
-invoice- invoice_id, customer_id, invoice_date	,billing_address, billing_city, billing_state, billing_country, billing_postal_code, total
-invoice_line - invoice_line_id,	invoice_id,track_id,unit_price,quantity
-media_type- media_type_id, name
-playlist- playlist_id, name
-playlist_track - playlist_id, track_id
-track- track_id	name, album_id, media_type_id, genre_id,composer, milliseconds, bytes, unit_price
-
-Analysed data using queries on several tables ,created table schema under lucid.app to have better understanding of relationship between tables .Used joins to join tables to another and grouping them .
+Research Problem - To analyze sales patterns, customer preferences, and artist performance in a digital music store using star–flake schema-based data modeling and SQL querying.
+Analysed data using queries on several tables ,created table schema under lucid.app to have better understanding of relationship between tables.
 
 Tables schema
 <img width="505" alt="star flake" src="https://github.com/Twitter-gupta/SQL-analysis-on-music-store/assets/164379382/3e563d4c-9344-4907-8946-d1e4b8bba39d">
